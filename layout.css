@@ -1,0 +1,233 @@
+/******************** Intro *********************/
+
+.right {
+  text-align: right;
+}
+
+.right h2 {
+  font-size: 1.8rem;
+  margin-top: 10px;
+}
+
+.right h3 {
+  margin-top: 30px;
+  font-size: 6rem;
+}
+
+.selfie_img {
+  width: 300px;
+}
+
+/******************** Om mig *********************/
+
+.om_faglig h2 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.om_faglig p {
+  margin-top: 30px;
+}
+
+.om_privat {
+  margin-top: 50px;
+}
+
+.mig_img {
+  margin-top: 30px;
+}
+
+/******************** Case *********************/
+
+.green {
+  text-align: center;
+}
+
+.grid img {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.cases h2 {
+  padding-top: 50px;
+}
+
+.case_img img {
+  margin-top: -10px;
+  height: 120px;
+}
+
+.text_box {
+  max-width: 300px;
+  text-align: left;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+/**************** Kernekompetencer ****************/
+
+.skills h2 {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.skills_background {
+  background-image: url(imgs/coding.png);
+  color: white;
+  padding-bottom: 100px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.skills_box1 {
+  background-color: #71090b;
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-top: 60px;
+  padding-left: 20px;
+}
+
+.skills_box2 {
+  background-color: #71090b;
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-top: 60px;
+  padding-left: 20px;
+}
+
+.skills_box1 ul {
+  padding-left: 30px;
+  margin: 30px;
+}
+
+.skills_box2 ul {
+  padding-left: 30px;
+  margin: 30px;
+}
+
+/******************** Kontakt *********************/
+
+.kontakt_overskrift {
+  padding-top: 50px;
+}
+
+.li_space {
+  margin-top: 30px;
+  list-style: none;
+  padding-left: 0;
+}
+
+.kontakt_overskrift h2 {
+  padding-left: 30px;
+}
+
+.information h3 {
+  padding: 0;
+}
+
+.information {
+  padding-left: 30px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.kontakt_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.prof-mig_img {
+  width: 220px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+@media (min-width: 750px) {
+  /******************** Intro *********************/
+
+  .right h1 {
+    font-size: 4.6rem;
+    margin-top: 50px;
+  }
+
+  .right h2 {
+    font-size: 2.5rem;
+  }
+
+  .right h3 {
+    font-size: 7rem;
+  }
+
+  .selfie_img {
+    margin-top: -150px;
+    width: 300px;
+  }
+
+  /******************** Om mig *********************/
+
+  .om_faglig p {
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  .mig_img {
+    order: -1;
+  }
+
+  .om_mig p {
+    margin-top: 30px;
+  }
+
+  .om_mig {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /******************** Case *********************/
+
+  .green {
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    border: none;
+  }
+
+  .cases_grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+
+  /*************** Kernekompetencer *****************/
+
+  .skills_background {
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    border: none;
+  }
+
+  .skills_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-self: center;
+  }
+
+  .skills_box1 {
+    margin-right: 80px;
+  }
+
+  .skills_box2 {
+    margin-left: 80px;
+  }
+
+  /******************** Kontakt *********************/
+
+  .prof-mig_img {
+    width: 280px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+}
