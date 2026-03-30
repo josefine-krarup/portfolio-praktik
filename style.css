@@ -18,7 +18,7 @@ img {
   }
 }
 
-/********** Burger Menu ************/
+/* ********* Burger Menu ***********
 
 header {
   position: sticky;
@@ -124,7 +124,7 @@ nav {
   nav.active .menu a {
     font-size: 24px;
   }
-}
+} */
 
 /************************ STYLE *************************/
 
@@ -149,16 +149,25 @@ footer {
   border-top: 1px solid black;
 }
 
-html {
-  scroll-behavior: smooth;
+footer a {
+  color: white;
 }
 
-#about,
+.footer_section {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* html {
+  scroll-behavior: smooth;
+} */
+
+/* #about,
 #cases,
 #skills,
 #contact {
   scroll-margin-top: 70px;
-}
+} */
 
 h1 {
   font-family: "Manrope", sans-serif;
@@ -193,11 +202,6 @@ p {
 a {
   font-family: "Manrope", sans-serif;
   font-size: 1.1rem;
-  color: black;
-}
-
-a:hover {
-  color: #71090b;
 }
 
 li {
@@ -210,7 +214,6 @@ li {
   border-right: 3px solid currentColor;
 }
 
-/* Cursor blink */
 @keyframes blink {
   50% {
     border-color: transparent;
@@ -322,7 +325,8 @@ hr.full_width {
 
 .grid figure p {
   letter-spacing: 1px;
-  font-size: 68.5%;
+  font-size: 70%;
+  font-weight: 700;
 }
 
 /*---------------*/

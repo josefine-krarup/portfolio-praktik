@@ -1,4 +1,4 @@
-/******************** Intro *********************/
+/******************** Intro - Mobil *********************/
 
 .right {
   text-align: right;
@@ -18,26 +18,7 @@
   width: 300px;
 }
 
-/******************** Om mig *********************/
-
-.om_faglig h2 {
-  text-align: center;
-  margin-top: 50px;
-}
-
-.om_faglig p {
-  margin-top: 30px;
-}
-
-.om_privat {
-  margin-top: 50px;
-}
-
-.mig_img {
-  margin-top: 30px;
-}
-
-/******************** Case *********************/
+/******************** Case - Mobil *********************/
 
 .green {
   text-align: center;
@@ -52,6 +33,10 @@
   padding-top: 50px;
 }
 
+.cases_grid h3 {
+  margin-bottom: 20px;
+}
+
 .case_img img {
   margin-top: -10px;
   height: 120px;
@@ -64,52 +49,66 @@
   margin-bottom: 50px;
 }
 
-/**************** Kernekompetencer ****************/
+/**************** Kernekompetencer - Mobil ****************/
 
 .skills h2 {
   text-align: center;
-  padding-top: 50px;
+  padding-top: 100px;
 }
 
 .skills_background {
   background-image: url(imgs/coding.png);
   color: white;
-  padding-bottom: 100px;
+  padding-bottom: 200px;
   background-size: cover;
   background-attachment: fixed;
 }
 
 .skills_box1 {
   background-color: #71090b;
-  width: 400px;
-  height: 300px;
+  width: 430px;
+  height: 280px;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 80px;
   padding-top: 60px;
   padding-left: 20px;
 }
 
 .skills_box2 {
   background-color: #71090b;
-  width: 400px;
-  height: 300px;
+  width: 430px;
+  height: 280px;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 80px;
   padding-top: 60px;
   padding-left: 20px;
 }
 
 .skills_box1 ul {
-  padding-left: 30px;
   margin: 30px;
 }
 
 .skills_box2 ul {
-  padding-left: 30px;
   margin: 30px;
 }
 
-/******************** Kontakt *********************/
+/******************** Om mig - Mobil *********************/
+
+.om_header h2 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.om_mig p {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.om_mig img {
+  margin-top: 30px;
+}
+
+/******************** Kontakt - Mobil *********************/
 
 .kontakt_overskrift {
   padding-top: 50px;
@@ -135,23 +134,19 @@
   margin-bottom: 50px;
 }
 
-.kontakt_grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
 .prof-mig_img {
-  width: 220px;
+  width: 400px;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 @media (min-width: 750px) {
-  /******************** Intro *********************/
+  /******************** Intro - Desktop *********************/
 
   .right h1 {
     font-size: 4.6rem;
-    margin-top: 50px;
+    margin-top: 80px;
   }
 
   .right h2 {
@@ -163,31 +158,11 @@
   }
 
   .selfie_img {
-    margin-top: -150px;
-    width: 300px;
+    margin-top: -180px;
+    width: 400px;
   }
 
-  /******************** Om mig *********************/
-
-  .om_faglig p {
-    margin: 0 auto;
-    margin-top: 30px;
-  }
-
-  .mig_img {
-    order: -1;
-  }
-
-  .om_mig p {
-    margin-top: 30px;
-  }
-
-  .om_mig {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  /******************** Case *********************/
+  /******************** Case - Desktop *********************/
 
   .green {
     width: 100vw;
@@ -201,7 +176,7 @@
     padding-bottom: 30px;
   }
 
-  /*************** Kernekompetencer *****************/
+  /*************** Kernekompetencer - Desktop *****************/
 
   .skills_background {
     width: 100vw;
@@ -223,10 +198,38 @@
     margin-left: 80px;
   }
 
-  /******************** Kontakt *********************/
+  /******************** Om mig - Desktop *********************/
+
+  .om_mig {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .om_mig p {
+    margin: 0 auto;
+    margin-top: 30px;
+
+    &&:last-child {
+      margin-bottom: 50px;
+    }
+  }
+
+  .mig_img {
+    order: -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+
+  /******************** Kontakt - Desktop *********************/
+
+  .kontakt_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
   .prof-mig_img {
-    width: 280px;
+    width: 320px;
     margin-top: 30px;
     margin-bottom: 50px;
   }
